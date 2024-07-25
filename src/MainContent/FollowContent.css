@@ -1,0 +1,115 @@
+/* 팔로우 및 추천 친구 박스 */
+.follow-box,
+.recommendfriend-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); /* 3개의 열을 맞추기 위해 너비 조정 */
+    margin: 10px; /* 박스 간격 조정 */
+    box-sizing: border-box; /* 패딩과 보더를 너비에 포함 */
+    max-width: 200px; /* 최대 너비 설정 */
+    height: auto; /* 높이 자동 조정 */
+}
+
+/* 추천 친구 및 팔로우 컨테이너 */
+.recommendfriend-container,
+.follow-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 박스 간격 조정 */
+    justify-content: center; /* 가운데 정렬 */
+}
+
+/* 팔로우 및 추천 친구 박스 제목 스타일 */
+.follow-box h2,
+.follow-box h3,
+.recommendfriend-box h2,
+.recommendfriend-box h3 {
+    margin: 0;
+    font-size: 1.2em; /* 제목 크기 동일하게 설정 */
+}
+
+/* 팔로우 버튼 스타일 */
+.follow-button {
+    background-color: #6699ff; /* 버튼 배경 색상 변경 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.follow-button:hover {
+    background-color: rgb(74, 122, 217); /* 호버 시 배경 색상 변경 */
+}
+
+/* 언팔로우 버튼 스타일 */
+.unfollow-button {
+    background-color: #ff4d4d; /* 버튼 배경 색상 유지 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.unfollow-button:hover {
+    background-color: #ff1a1a; /* 호버 시 배경 색상 유지 */
+}
+
+/* 즐겨찾기 버튼 스타일 */
+.favorite-button {
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+/* 구분선 스타일 */
+.divider {
+    border-top: 2px solid #ddd;
+    margin: 20px auto; /* 가운데 정렬 */
+    width: 50%; /* 너비를 50%로 설정 */
+}
+
+/* 중앙 텍스트 스타일 */
+.centered-text {
+    text-align: center; /* 텍스트 가운데 정렬 */
+    color: rgb(119, 119, 119);
+    font-size: 1.1em;
+    margin: 10px 0; /* 간격 줄이기 */
+}
+
+/* 제목 스타일 */
+.section-title {
+    text-align: center; /* 제목 가운데 정렬 */
+    width: 100%;
+    margin: 20px 0;
+    font-size: 24px; /* 제목 폰트 크기 24px로 설정 */
+}
+
+/* 제목 스타일 */
+.section-title-1 {
+    text-align: center; /* 제목 가운데 정렬 */
+    width: 100%;
+    font-size: 24px; /* 제목 폰트 크기 24px로 설정 */
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+/* 추천 친구 섹션의 추가 텍스트 스타일 */
+.recommendations-text {
+    text-align: center; /* 가운데 정렬 */
+    color: rgb(119, 119, 119);
+    font-size: 1.1em;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.main{
+    margin: 0px auto; 
+    padding: 20px; 
+    border-radius: 10px;
+}
